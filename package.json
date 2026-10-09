@@ -1,0 +1,26 @@
+{
+  "name": "hello_for_all",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "lint": "turbo lint",
+    "test": "turbo test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "^12.10.1",
+      "onFail": "download"
+    }
+  },
+  "type": "module",
+  "devDependencies": {
+    "turbo": "^2.11.7"
+  }
+}
